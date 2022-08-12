@@ -27,8 +27,8 @@ export const Form = () => {
       <input required className='box1' type="text" name="name" value={store.name} onChange={input1}/>
 
       </label>
-      <label className='text2'>Department: 
-      <input required className='box1' type="text" name="department" value={store.department} onChange={input1}/>
+      <label className='text2 '>Department: 
+      <input required className='box1-name' type="text" name="department" value={store.department} onChange={input1}/>
 
       </label>
       <label className='text3'>Rating: 
